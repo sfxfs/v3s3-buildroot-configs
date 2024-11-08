@@ -70,10 +70,31 @@
 	status = "okay";
 };
 
+&uart2 {
+	pinctrl-0 = <&uart2_pins>;
+	pinctrl-names = "default";
+	status = "okay";
+};
+
 &i2c0 {
 	pinctrl-0 = <&i2c0_pins>;
 	pinctrl-names = "default";
 	status = "okay";
+};
+
+&i2c1 {
+	pinctrl-0 = <&i2c1_pe_pins>;
+	pinctrl-names = "default";
+	status = "okay";
+};
+
+&spi0 {
+	status = "okay";
+	spidev@0x00 {
+		compatible = "spidev";
+		spi-max-frequency = <1200000>;
+		reg = <0>;
+	};
 };
 
 // OV2640
@@ -119,6 +140,7 @@
 */
 
 // OV5640
+/*
 &csi1 {
 	pinctrl-names = "default";
 	pinctrl-0 = <&csi1_8bit_pins>;
@@ -170,4 +192,4 @@
 		};
 	};
 };
-
+*/

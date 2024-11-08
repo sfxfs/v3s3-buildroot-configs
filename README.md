@@ -26,18 +26,21 @@ In addition, available features shown in the [Sunxi Mainline Status Matrix](http
 ## Usage Instructions
 
 ```
+# Installing dependencies
+sudo apt install build-essential cpio unzip libncurses5-dev libncursesw5-dev
+
 # Change directory to any appropriate location
 cd /some/working/directory
 
 # Download the v3s3 external tree
 git clone https://github.com/Unturned3/v3s3
 
-# Get a buildroot release (any recent version should work; tested with 2022.05.1)
-wget buildroot.org/downloads/buildroot-x.y.z.tar.gz
-tar -xf buildroot-x.y.z.tar.gz
+# Get a buildroot release (any recent version should work too)
+wget buildroot.org/downloads/buildroot-2022.05.1.tar.gz
+tar -xf buildroot-2022.05.1.tar.gz
 
-cd buildroot-x.y.z
-make BR2_EXTERNAL=../v3s3 licheepi_zero_defconfig
+cd buildroot-2022.05.1
+make BR2_EXTERNAL=../v3s3-buildroot-configs licheepi_zero_defconfig
 
 # Make any customizations if desired
 make nconfig
