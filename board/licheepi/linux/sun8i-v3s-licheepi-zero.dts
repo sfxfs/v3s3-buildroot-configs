@@ -9,6 +9,7 @@
 
 	aliases {
 		serial0 = &uart0;
+		spi0 = &spi0;
 	};
 
 	chosen {
@@ -77,14 +78,15 @@
 	status = "okay";
 };
 
-&i2c1 {
-	status = "okay";
-};
+// conflict with uart1
+// &i2c1 {
+// 	status = "okay";
+// };
 
 &spi0 {
 	status = "okay";
 	spidev@0x00 {
-		compatible = "spidev";
+		compatible = "rohm,dh2228fv";
 		spi-max-frequency = <1200000>;
 		reg = <0>;
 	};
