@@ -457,6 +457,11 @@
 				function = "uart0";
 			};
 
+			uart1_pins: uart1_pins {
+				pins = "PE21", "PE22";
+				function = "uart1";
+			};
+
 			uart2_pins: uart2-pins {
 				pins = "PB0", "PB1";
 				function = "uart2";
@@ -503,8 +508,7 @@
 		pwm: pwm@1c21400 {
 			compatible = "allwinner,sun8i-v3s-pwm",
 				     "allwinner,sun7i-a20-pwm";
-			//reg = <0x01c21400 0xc>;	// mainline 5.19.3 version
-			reg = <0x01c21400 0x400>;
+			reg = <0x01c21400 0xc>;
 			clocks = <&osc24M>;
 			#pwm-cells = <3>;
 			status = "disabled";
@@ -706,4 +710,3 @@
 		};
 	};
 };
-

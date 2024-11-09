@@ -1,0 +1,72 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_OUTPUT_EXCMD	mixed	/number, pattern, mixed, or combineV2/
+!_TAG_OUTPUT_FILESEP	slash	/slash or backslash/
+!_TAG_OUTPUT_MODE	u-ctags	/u-ctags or e-ctags/
+!_TAG_PATTERN_LENGTH_LIMIT	96	/0 for no limit/
+!_TAG_PROC_CWD	/home/sfxfs/v3s-build/v3s3-buildroot-configs/	//
+!_TAG_PROGRAM_AUTHOR	Universal Ctags Team	//
+!_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
+!_TAG_PROGRAM_URL	https://ctags.io/	/official site/
+!_TAG_PROGRAM_VERSION	5.9.0	//
+ccu	board/licheepi/linux/sun8i-v3s.dtsi	/^		ccu: clock@1c20000 {$/;"	l
+cedarx	board/licheepi/linux/sun8i-v3s.dtsi	/^		cedarx: video-codec@1c0e000 {$/;"	l
+codec	board/licheepi/linux/sun8i-v3s.dtsi	/^		codec: codec@1c22c00 {$/;"	l
+codec_analog	board/licheepi/linux/sun8i-v3s.dtsi	/^		codec_analog: codec-analog@1c23000 {$/;"	l
+csi0_mclk_pin	board/licheepi/linux/sun8i-v3s.dtsi	/^			csi0_mclk_pin: csi0-mclk-pin {$/;"	l	label:pio
+csi1	board/licheepi/linux/sun8i-v3s.dtsi	/^		csi1: camera@1cb4000 {$/;"	l
+csi1_8bit_pins	board/licheepi/linux/sun8i-v3s.dtsi	/^			csi1_8bit_pins: csi1-8bit-pins {$/;"	l	label:pio
+csi1_mclk_pin	board/licheepi/linux/sun8i-v3s.dtsi	/^			csi1_mclk_pin: csi1-mclk-pin {$/;"	l	label:pio
+de	board/licheepi/linux/sun8i-v3s.dtsi	/^	de: display-engine {$/;"	l
+display_clocks	board/licheepi/linux/sun8i-v3s.dtsi	/^		display_clocks: clock@1000000 {$/;"	l
+dma	board/licheepi/linux/sun8i-v3s.dtsi	/^		dma: dma-controller@1c02000 {$/;"	l
+ehci0	board/licheepi/linux/sun8i-v3s.dtsi	/^		ehci0: usb@1c1a000 {$/;"	l
+emac	board/licheepi/linux/sun8i-v3s.dtsi	/^		emac: ethernet@1c30000 {$/;"	l
+emac_rgmii_pins	board/licheepi/linux/sun8i-v3s.dtsi	/^			emac_rgmii_pins: emac-rgmii-pins {$/;"	l	label:pio
+external_mdio	board/licheepi/linux/sun8i-v3s.dtsi	/^				external_mdio: mdio@2 {$/;"	l	label:emac.mdio_mux
+gic	board/licheepi/linux/sun8i-v3s.dtsi	/^		gic: interrupt-controller@1c81000 {$/;"	l
+i2c0	board/licheepi/linux/sun8i-v3s.dtsi	/^		i2c0: i2c@1c2ac00 {$/;"	l
+i2c0_pins	board/licheepi/linux/sun8i-v3s.dtsi	/^			i2c0_pins: i2c0-pins {$/;"	l	label:pio
+i2c1	board/licheepi/linux/sun8i-v3s.dtsi	/^		i2c1: i2c@1c2b000 {$/;"	l
+i2c1_pb_pins	board/licheepi/linux/sun8i-v3s.dtsi	/^			i2c1_pb_pins: i2c1-pb-pins {$/;"	l	label:pio
+i2c1_pe_pins	board/licheepi/linux/sun8i-v3s.dtsi	/^			i2c1_pe_pins: i2c1-pe-pins {$/;"	l	label:pio
+int_mii_phy	board/licheepi/linux/sun8i-v3s.dtsi	/^					int_mii_phy: ethernet-phy@1 {$/;"	l	label:emac.mdio_mux.internal_mdio
+internal_mdio	board/licheepi/linux/sun8i-v3s.dtsi	/^				internal_mdio: mdio@1 {$/;"	l	label:emac.mdio_mux
+ion	board/licheepi/linux/sun8i-v3s.dtsi	/^		ion: ion {$/;"	l
+lradc	board/licheepi/linux/sun8i-v3s.dtsi	/^		lradc: lradc@1c22800 {$/;"	l
+mdio	board/licheepi/linux/sun8i-v3s.dtsi	/^			mdio: mdio {$/;"	l	label:emac
+mdio_mux	board/licheepi/linux/sun8i-v3s.dtsi	/^			mdio_mux: mdio-mux {$/;"	l	label:emac
+mixer0	board/licheepi/linux/sun8i-v3s.dtsi	/^		mixer0: mixer@1100000 {$/;"	l
+mixer0_out	board/licheepi/linux/sun8i-v3s.dtsi	/^				mixer0_out: port@1 {$/;"	l	label:mixer0
+mixer0_out_tcon0	board/licheepi/linux/sun8i-v3s.dtsi	/^					mixer0_out_tcon0: endpoint {$/;"	l	label:mixer0.mixer0_out
+mmc0	board/licheepi/linux/sun8i-v3s.dtsi	/^		mmc0: mmc@1c0f000 {$/;"	l
+mmc0_pins	board/licheepi/linux/sun8i-v3s.dtsi	/^			mmc0_pins: mmc0-pins {$/;"	l	label:pio
+mmc1	board/licheepi/linux/sun8i-v3s.dtsi	/^		mmc1: mmc@1c10000 {$/;"	l
+mmc1_pins	board/licheepi/linux/sun8i-v3s.dtsi	/^			mmc1_pins: mmc1-pins {$/;"	l	label:pio
+mmc2	board/licheepi/linux/sun8i-v3s.dtsi	/^		mmc2: mmc@1c11000 {$/;"	l
+nmi_intc	board/licheepi/linux/sun8i-v3s.dtsi	/^		nmi_intc: interrupt-controller@1c000d0 {$/;"	l
+ohci0	board/licheepi/linux/sun8i-v3s.dtsi	/^		ohci0: usb@1c1a400 {$/;"	l
+osc24M	board/licheepi/linux/sun8i-v3s.dtsi	/^		osc24M: osc24M_clk {$/;"	l
+osc32k	board/licheepi/linux/sun8i-v3s.dtsi	/^		osc32k: osc32k_clk {$/;"	l
+pio	board/licheepi/linux/sun8i-v3s.dtsi	/^		pio: pinctrl@1c20800 {$/;"	l
+pwm	board/licheepi/linux/sun8i-v3s.dtsi	/^		pwm: pwm@1c21400 {$/;"	l
+reg_vcc1v8	board/licheepi/linux/sun8i-v3s.dtsi	/^		reg_vcc1v8: vcc1v8 {$/;"	l
+reg_vcc2v8	board/licheepi/linux/sun8i-v3s.dtsi	/^		reg_vcc2v8: vcc2v8 {$/;"	l
+rtc	board/licheepi/linux/sun8i-v3s.dtsi	/^		rtc: rtc@1c20400 {$/;"	l
+spi0	board/licheepi/linux/sun8i-v3s.dtsi	/^		spi0: spi@1c68000 {$/;"	l
+spi0_pins	board/licheepi/linux/sun8i-v3s.dtsi	/^			spi0_pins: spi0-pins {$/;"	l	label:pio
+sram_c	board/licheepi/linux/sun8i-v3s.dtsi	/^			sram_c: sram@1d00000 {$/;"	l	label:syscon
+syscon	board/licheepi/linux/sun8i-v3s.dtsi	/^		syscon: syscon@1c00000 {$/;"	l
+tcon0	board/licheepi/linux/sun8i-v3s.dtsi	/^		tcon0: lcd-controller@1c0c000 {$/;"	l
+tcon0_in	board/licheepi/linux/sun8i-v3s.dtsi	/^				tcon0_in: port@0 {$/;"	l	label:tcon0
+tcon0_in_mixer0	board/licheepi/linux/sun8i-v3s.dtsi	/^					tcon0_in_mixer0: endpoint {$/;"	l	label:tcon0.tcon0_in
+tcon0_out	board/licheepi/linux/sun8i-v3s.dtsi	/^				tcon0_out: port@1 {$/;"	l	label:tcon0
+uart0	board/licheepi/linux/sun8i-v3s.dtsi	/^		uart0: serial@1c28000 {$/;"	l
+uart0_pb_pins	board/licheepi/linux/sun8i-v3s.dtsi	/^			uart0_pb_pins: uart0-pb-pins {$/;"	l	label:pio
+uart1	board/licheepi/linux/sun8i-v3s.dtsi	/^		uart1: serial@1c28400 {$/;"	l
+uart2	board/licheepi/linux/sun8i-v3s.dtsi	/^		uart2: serial@1c28800 {$/;"	l
+uart2_pins	board/licheepi/linux/sun8i-v3s.dtsi	/^			uart2_pins: uart2-pins {$/;"	l	label:pio
+usb_otg	board/licheepi/linux/sun8i-v3s.dtsi	/^		usb_otg: usb@1c19000 {$/;"	l
+usbphy	board/licheepi/linux/sun8i-v3s.dtsi	/^		usbphy: phy@1c19400 {$/;"	l
+ve_sram	board/licheepi/linux/sun8i-v3s.dtsi	/^				ve_sram: sram-section@0 {$/;"	l	label:syscon.sram_c
+wdt0	board/licheepi/linux/sun8i-v3s.dtsi	/^		wdt0: watchdog@1c20ca0 {$/;"	l
